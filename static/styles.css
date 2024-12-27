@@ -1,0 +1,350 @@
+/* body {
+    background-color: black !important;
+} */
+
+/* PROFILE PAGE */
+.navbar {
+    font-family: 'Times New Roman', Times, serif;
+}
+.jumbotron {
+    
+    
+    height: 700px;
+    text-align: center;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative; 
+
+}
+
+.nav-item:hover {
+    background-color: #ffc107;
+
+}
+
+.navbar-nav > li > .dropdown-menu a:hover{
+    background-color: #ffc107;
+}
+
+#form_div{
+    /* visibility: hidden; */
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 10px 10px #ffc107;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    align-content: center;
+    border: 3px solid black;
+
+}
+
+#song-details-div{
+    /* visibility: hidden; */
+    margin: auto;
+    width: 400px;
+    align-items: center;
+    background-color: white;
+
+    
+
+}
+
+#lyrics-div {
+    /* visibility: hidden; */
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    line-height: 2.0;
+    font-size: 15pt;
+    border: 5px solid black;
+    border-radius: 30px;
+    box-shadow: 10px 10px #ffc107;
+    
+}
+
+#fields{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.search_btn {
+    background-color: #ffc107;
+    border-radius: 5%;
+    border: 5px;
+}
+
+.search_btn:hover {
+    background-color: #fcd252;
+    border-radius: 5%;
+    border: 5px;
+}
+#greeting {
+    margin-top: 180px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffc107;
+    font-weight: bold;
+}
+
+
+/* SHARE SONG */
+.form_div2{
+    /* visibility: hidden; */
+    margin: auto;
+    width: 450px;
+    height: 250px;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 10px 10px #ffc107;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    align-content: center;
+    border: 3px solid black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.generic_div {
+
+
+    margin: auto;
+    top: auto;
+    width: 450px;
+    height: 250px;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 10px 10px #ffc107;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    align-content: center;
+    border: 3px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+/* a:hover {
+    background-color: black;
+    color: white;
+} */
+/* GET PLAYLISTS */
+
+.newplaylist_btn{
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    
+}
+
+.newplaylist_btn:hover{
+    background-color: #ffc107;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin: auto;
+}
+
+#playlist_jumbo{
+    
+    background-image: url("/static/images/pexels-paulseling-12341041.jpg");
+    box-shadow: inset 0px -30px 30px #fffffff7;
+}
+
+.playlists_div {
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 10px 10px #ffc107;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: white;
+    width: 600px;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    align-content: center;
+    border: 3px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+
+.unordered_list{
+    list-style-type: none;
+}
+
+#title_div {
+    margin:auto;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    line-height: 2.0;
+    /* font-size: 15pt; */
+    border: 5px solid black;
+    border-radius: 30px;
+    box-shadow: 10px 10px #ffc107;
+    align-content: center;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+/* make playlist */
+
+#new_playlist_div {
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 10px 10px #ffc107;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: white;
+    width: 600px;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    align-content: center;
+    border: 3px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+
+/* new playlist details */
+
+/* .playlist_details_div {
+    margin-block-start: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 15px 10px #ffc107;
+    width: 600px;
+    text-align: center;
+    border: 3px solid black;
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+
+
+.playlist_details_div {
+    margin-top: 200px;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 15px 10px #ffc107;
+    /* margin: auto; */
+    padding: 5px;
+    background-color: white;
+    width: 700px;
+    text-align: center;
+    align-content: center;
+    border: 3px solid black;
+    font-family: 'Times New Roman', Times, serif; 
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14pt;
+    
+    
+}
+
+.cover{
+    display:block;
+    margin: auto;
+    
+   
+}
+
+ol {
+    list-style-position: inside;    
+    text-align: center;
+}
+
+.track_hover:hover{
+    background-color: black;
+    color: white;
+}
+
+.form_div3{
+    /* visibility: hidden; */
+    margin: auto;
+    width: 450px;
+    height: 150px;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 10px 10px #ffc107;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    align-content: center;
+    border: 3px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+
+}
+
+#details_div {
+    margin-top: 100px;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 15px 10px #ffc107;
+    /* margin: auto; */
+    padding: 5px;
+    background-color: white;
+    width: 850px;
+    text-align: center;
+    align-content: center;
+    border: 3px solid black;
+    font-family: 'Times New Roman', Times, serif; 
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14pt;
+    margin-bottom: 80px;
+    overflow: hidden;
+    padding-right: 30px;
+    
+    
+}
+
+.track_names_div{
+    float: left;
+    width: 760px;
+    margin-top: 30px;
+    
+}
+
+#delete_track_div{
+    float: right;
+    font-size: 10.89pt;
+    margin-top: 30px; 
+    
+}
+
+.delete_track_btn{
+    background-color: black;
+    color: white;
+    margin-bottom: .5px;
+
+}
+
+.delete_track_btn:hover{
+    background-color: #ffc107;
+    color: black;
+
+}

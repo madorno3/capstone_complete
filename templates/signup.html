@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/index_styles.css">
+    <title>sign up</title>
+</head>
+<body>
+    
+    <div id="form_div">
+      <h2>Sign Up.</h2>
+      {{ form.hidden_tag() }}
+        
+      {% for field in form
+      if field.widget.input_type != 'hidden' %}
+      <p id="fields">
+          {{ field.label }}
+          {{ field }}
+        
+          {% for error in field.errors %}
+          {{ error }}
+          {% endfor %}
+      </p>
+      {% endfor %}
+        
+      <button class="btn" type="submit" bg-info>Find Lyrics</button>
+        
+      </form>
+    </div>
+    <!-- <div id="signup_box">
+      <h2>Signup.</h2>
+      <form method="POST">
+        
+          {{ form.hidden_tag() }}
+      
+          {% for field in form
+          if field.widget.input_type != 'hidden' %}
+          <p>
+            {{ field.label }}
+            {{ field }}
+      
+            {% for error in field.errors %}
+            {{ error }}
+            {% endfor %}
+          </p>
+          {% endfor %}
+      
+          <button type="submit">Register</button>
+      
+        </form>
+    </div> -->
+</body>
+</html>

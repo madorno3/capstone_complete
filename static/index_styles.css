@@ -1,0 +1,76 @@
+body {
+    background: url("/static/images/pexels-mikebirdy-114820.jpg") no-repeat center center / cover;
+    min-height: 100vh;
+}
+
+
+
+
+h1 {
+    font-size: 65pt;
+    line-height: 0.05em;
+}
+
+h2 {
+    font-size: 45pt;
+    text-align: center;
+    line-height: 0.05em;
+}
+
+/* p {
+    font-size: 10pt;
+   
+} */
+
+
+.box {
+    background-color: white;
+    /* border: 10px; */
+    border-radius: 10%;
+    width: 200px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 60px;
+    position: relative;
+    margin-top: 100px;
+    box-shadow: 10px 10px #ffc107;
+    text-align: center;
+    border: 3px solid black;
+    
+}
+
+.btn {
+    background-color: black; 
+    color: white;
+    display: block;
+    margin: 0 auto;
+    width: 210px;
+
+}
+
+.btn:hover {
+    background-color: #ffc107;;
+    color: black;
+    display: block;
+    margin: 0 auto;
+    width: 210px;
+
+}
+
+#form_div{
+    /* visibility: hidden; */
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 10px 10px #ffc107;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    align-content: center;
+    border: 3px solid black;
+
+}
+
