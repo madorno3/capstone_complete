@@ -43,7 +43,7 @@ sp_oauth = SpotifyOAuth(
 
 sp = Spotify(auth_manager=sp_oauth)
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql:///capstone_db"
+app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://capstone_db_nwr7_user:Giawesy9uLfH7aRteF6T941lClrzDdnC@localhost:5432/capstone_db_nwr7"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.config["SQLALCHEMY_ECHO"] = True
 app.config["SECRET_KEY"] = "abc123"
