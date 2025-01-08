@@ -38,16 +38,5 @@ CREATE TABLE shared_songs (
   FOREIGN KEY (receiver_username) REFERENCES users(username)
 );
 
-CREATE TABLE lyrics (
-  lyric_id INTEGER PRIMARY KEY,
-  lyric TEXT,
-  song VARCHAR,
-  artist VARCHAR,
-  owner_id INTEGER,
-  FOREIGN KEY (owner_id) REFERENCES users(user_id)
-);
 
--- create a table for sharing playlists
---  columns for table
--- table for user id(sharer), user that will receive item, song or playlist id
 
