@@ -91,14 +91,14 @@ class Playlists(db.Model):
     playlist_title = db.Column(db.String(100), nullable=False)
     description = db.Column(db.String(200), nullable=False)
     owner_id = db.Column(
-        db.String(20),
+        db.Integer,
         db.ForeignKey('users.user_id'),
         nullable=False,
     )
     receiver_id = db.Column(
         db.Integer,
         db.ForeignKey('users.user_id'),
-        nullable=True,
+        nullable=False,
     )
 
 class Lyrics(db.Model):
