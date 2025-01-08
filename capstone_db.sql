@@ -15,14 +15,16 @@ CREATE TABLE users (
 );
 
 CREATE TABLE playlists (
-  playlist_id Serial PRIMARY KEY,
-  playlist_title VARCHAR,
-  owner_id INTEGER,
-  receiver_id INTEGER,
-  FOREIGN KEY (owner_id) REFERENCES users(user_id),
-  FOREIGN KEY (receiver_id) REFERENCES users(user_id)
-  
+    playlist_id SERIAL NOT NULL,
+    playlist_title VARCHAR(100) NOT NULL,
+    description VARCHAR(200) NOT NULL,
+    owner_id INTEGER NOT NULL,  -- Changed from VARCHAR(20) to INTEGER
+    receiver_id INTEGER,
+    PRIMARY KEY (playlist_id),
+    FOREIGN KEY(owner_id) REFERENCES users(user_id),
+    FOREIGN KEY(receiver_id) REFERENCES users(user_id)
 );
+
 
 CREATE TABLE shared_songs (
   shared_song_id Serial PRIMARY KEY,
