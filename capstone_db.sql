@@ -19,7 +19,7 @@ CREATE TABLE playlists (
     playlist_title VARCHAR(100) NOT NULL,
     description VARCHAR(200) NOT NULL,
     owner_id INTEGER NOT NULL, 
-    receiver_id INTEGER,
+    receiver_id INTEGER NOT NULL,
     PRIMARY KEY (playlist_id),
     FOREIGN KEY(owner_id) REFERENCES users(user_id),
     FOREIGN KEY(receiver_id) REFERENCES users(user_id)
