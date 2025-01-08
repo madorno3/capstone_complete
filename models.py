@@ -101,14 +101,5 @@ class Playlists(db.Model):
         nullable=False,
     )
 
-class Lyrics(db.Model):
-    __tablename__ = "lyrics"
 
-    playlist_id = db.Column(db.Integer, primary_key=True)
-    playlist_title = db.Column(db.String(100), nullable=False)
-    owner_id = db.Column(
-        db.String(20),
-        db.ForeignKey('users.user_id'),
-        nullable=False,
-    )
 
