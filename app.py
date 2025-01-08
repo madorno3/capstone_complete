@@ -1,6 +1,6 @@
 import os
 from flask import Flask, render_template, redirect, session, url_for, request, jsonify, flash, url_for, abort 
-from models import connect_db, db, Users, Playlists, Lyrics, Shared_songs
+from models import connect_db, db, Users, Playlists, Shared_songs
 from flask_bcrypt import Bcrypt
 from forms import RegisterForm, LoginForm, Playlistform, SongForm, ShareSongForm, LyricsSearchForm
 import spotipy
