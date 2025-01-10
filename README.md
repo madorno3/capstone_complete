@@ -18,22 +18,24 @@ The initial concept for Lyric was to create a site that could look up song lyric
 </ul>
 
 <b>Apis:</b>
-1.	Lyrics.ovh was used to make get requests for lyrics
-2.	Spotipy is a third-party library that was used to make get and post requests to the Spotify api
+<ul>
+  <li>Lyrics.ovh was used to make get requests for lyrics</li>
+  <li>Spotipy is a third-party library that was used to make get and post requests to the Spotify api</li>
+</ul>
 
 <b>Frameworks, Libraries, etc:</b>
-<ol>
+<ul>
   <li>Flask</li>
   <li>Jinja</li>
   <li>Spotipy</li>
-</ol>
+</ul>
 
 <b>Languages:</b>
-<ol>
+<ul>
   <li>HTML</li>
   <li>CSS</li>
   <li>Python</li>
-</ol>
+</ul>
 
 <b>User Flows:</b>
 <img width="1085" alt="Screenshot 2025-01-10 at 11 07 43 AM" src="https://github.com/user-attachments/assets/b9e99b60-bb70-4294-8484-b17ad49a632b" />
