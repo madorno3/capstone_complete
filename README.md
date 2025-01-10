@@ -36,6 +36,7 @@ The initial concept for Lyric was to create a site that could look up song lyric
   <li>HTML</li>
   <li>CSS</li>
   <li>Python</li>
+  <li>SQL</li>
 </ul>
 
 <b>User Flows:</b>
