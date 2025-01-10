@@ -25,6 +25,7 @@ The initial concept for Lyric was to create a site that could look up song lyric
 
 <b>Frameworks, Libraries, etc:</b>
 <ul>
+  <li>PostgreSQL</li>
   <li>Flask</li>
   <li>Jinja</li>
   <li>Spotipy</li>
